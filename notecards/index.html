@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <script src="notecards.js"></script>
+        <link rel="stylesheet" href="notecards.css">
+
+    </head>
+
+    <body>
+        <div class=container>
+            <div class=header><h3>This is my notecard project.</h3></div>
+            <hr>
+            <div class="notecard" id="notecard" onclick="flipCard()">
+                <div class="notecard-top" id="notecard-top">
+                    Lorem ipsum...
+                </div>
+                <div class="notecard-contents" id="notecard-contents">
+                    Lorem ipsum...
+                </div>
+            </div>
+            <div class="below-card">
+                <button class="flip-btn right-side" onclick="previousCard()">Previous Card</button>
+                <button class="flip-btn" onclick="flipCard()">
+                    Flip the card
+                </button>
+                <button class="flip-btn right-side" onclick="nextCard()">Next Card</button>
+            </div>
+            <div class="notecard-count" id="notecard-count">
+                lorem ipsum...
+            </div>
+        </div>
+    </body>
+</html>
